@@ -16,7 +16,7 @@ const PainPoints = () => {
       <div className="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="text-center mb-12">
           <h2 className="text-2xl md:text-3xl font-bold text-gray-900 mb-6 leading-tight max-w-2xl mx-auto">
-            内定者フォローや新入社員研修において、こんなお悩みはありませんか？
+            <span className="inline-block">内定者フォローや</span><span className="inline-block">新入社員研修において、</span><span className="inline-block">こんなお悩みは</span><span className="inline-block">ありませんか？</span>
           </h2>
         </div>
         
@@ -47,7 +47,7 @@ const PainPoints = () => {
             className="mt-16 text-center relative z-10"
           >
             <p className="text-xl md:text-2xl font-bold text-gray-900 mb-4 max-w-3xl mx-auto">
-              そんな人事担当者様のお悩みを解決するのが、オンライン謎解きチームビルディング研修
+              <span className="inline-block">そんな人事担当者様の</span><span className="inline-block">お悩みを解決するのが、</span><span className="inline-block">オンライン謎解き</span><span className="inline-block">チームビルディング研修</span>
             </p>
             <p className="text-3xl md:text-5xl font-extrabold mt-4 text-transparent bg-clip-text bg-gradient-to-r from-unicorn-purple to-unicorn-blue drop-shadow-sm py-2">
               「目指せ100兆円！謎解きユニコーン」です！

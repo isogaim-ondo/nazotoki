@@ -18,10 +18,10 @@ const FooterCTA = () => {
           transition={{ duration: 0.6 }}
         >
           <h2 className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-8 leading-tight max-w-4xl mx-auto">
-            内定者フォローや新入社員研修、社内コミュニケーション活性化の企画でお悩みの方は、ぜひご相談ください！
+            <span className="inline-block">内定者フォローや</span><span className="inline-block">新入社員研修、</span><span className="inline-block">社内コミュニケーション活性化の企画で</span><span className="inline-block">お悩みの方は、</span><span className="inline-block">ぜひご相談ください！</span>
           </h2>
           <p className="text-xl text-gray-300 mb-12 max-w-2xl mx-auto leading-relaxed">
-            空き状況の確認や、詳しい運用方法についてのご質問も受け付けております。お気軽にお問い合わせください。
+            <span className="inline-block">空き状況の確認や、</span><span className="inline-block">詳しい運用方法についてのご質問も</span><span className="inline-block">受け付けております。</span><span className="inline-block">お気軽にお問い合わせください。</span>
           </p>
           
           <a href="https://ondo.company/contact/" target="_blank" rel="noopener noreferrer" className="group relative px-8 py-5 md:px-12 md:py-6 bg-gradient-to-r from-unicorn-pink via-unicorn-purple to-unicorn-blue text-white text-xl font-bold rounded-full shadow-[0_0_40px_rgba(168,85,247,0.4)] hover:shadow-[0_0_60px_rgba(168,85,247,0.6)] transition-all duration-300 transform hover:-translate-y-1 inline-flex items-center justify-center mx-auto gap-3">

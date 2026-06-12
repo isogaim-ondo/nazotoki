@@ -46,8 +46,8 @@ const Hero = () => {
               </span>
             </h1>
             <p className="mt-4 text-lg md:text-2xl text-gray-600 mx-auto max-w-2xl mb-10 font-medium leading-relaxed">
-              【内定者・新入社員向け】オンラインで大盛り上がり！
-              100兆円のユニコーン企業創出を目指す、ワクワク感満載の謎解きゲーム。
+              <span className="inline-block">【内定者・新入社員向け】</span><span className="inline-block">オンラインで大盛り上がり！</span>
+              <span className="inline-block">100兆円のユニコーン企業創出を目指す、</span><span className="inline-block">ワクワク感満載の謎解きゲーム。</span>
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <a href="https://ondo.company/contact/" target="_blank" rel="noopener noreferrer" className="group relative px-8 py-4 bg-gradient-to-r from-unicorn-purple to-unicorn-blue text-white text-lg font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center gap-2">
