@@ -30,7 +30,6 @@ const Hero = () => {
             </div>
           </motion.div>
 
-          {/* Text Block (Bottom) */}
           <motion.div
             className="w-full"
             initial={{ opacity: 0, y: 30 }}
@@ -41,14 +40,14 @@ const Hero = () => {
               内製化できるチームビルディング
             </span>
             <h1 className="text-5xl md:text-6xl lg:text-7xl font-extrabold text-gray-900 tracking-tight mb-8 leading-tight">
-              目指せ100兆円！<br className="hidden md:block" />
-              <span className="text-transparent bg-clip-text bg-gradient-to-r from-unicorn-purple via-unicorn-pink to-unicorn-blue">
+              目指せ100兆円！
+              <span className="block text-transparent bg-clip-text bg-gradient-to-r from-unicorn-purple via-unicorn-pink to-unicorn-blue mt-2">
                 謎解きユニコーン
               </span>
             </h1>
             <p className="mt-4 text-lg md:text-2xl text-gray-600 mx-auto max-w-2xl mb-10 font-medium leading-relaxed">
-              【内定者・新入社員向け】オンラインで大盛り上がり！<br />
-              100兆円のユニコーン企業創出を目指す、<br className="hidden sm:block"/>ワクワク感満載の謎解きゲーム。
+              【内定者・新入社員向け】オンラインで大盛り上がり！
+              100兆円のユニコーン企業創出を目指す、ワクワク感満載の謎解きゲーム。
             </p>
             <div className="flex flex-col sm:flex-row justify-center items-center gap-4">
               <a href="https://ondo.company/contact/" target="_blank" rel="noopener noreferrer" className="group relative px-8 py-4 bg-gradient-to-r from-unicorn-purple to-unicorn-blue text-white text-lg font-bold rounded-full shadow-lg hover:shadow-xl transition-all duration-300 transform hover:-translate-y-1 flex items-center gap-2">

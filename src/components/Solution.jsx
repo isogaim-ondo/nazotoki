@@ -50,10 +50,14 @@ const Solution = () => {
                 </div>
                 <h3 className="text-2xl font-bold text-gray-900">所要時間</h3>
               </div>
-              <p className="text-gray-600 leading-relaxed text-lg">
-                謎解きの時間は前半・後半に分かれており、難易度が高めに設定されているため、企業様側で自由に時間の調整が可能です。<br/><br/>
-                全体で<strong>1時間〜1時間半程度</strong>のプログラムとして実施いただけます。オンラインだけでなく、対面でのイベントにも応用可能です。
-              </p>
+              <div className="text-gray-600 leading-relaxed text-lg">
+                <p className="mb-4">
+                  謎解きの時間は前半・後半に分かれており、難易度が高めに設定されているため、企業様側で自由に時間の調整が可能です。
+                </p>
+                <p>
+                  全体で<strong>1時間〜1時間半程度</strong>のプログラムとして実施いただけます。オンラインだけでなく、対面でのイベントにも応用可能です。
+                </p>
+              </div>
             </div>
           </motion.div>
         </div>
